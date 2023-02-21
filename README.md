@@ -1,2 +1,4 @@
-# binanceTradingBot
-Simple Python trading bots
+# cryptoBandit aka binanceTradingBot
+## Simple Python buy-low sell-high trading bot
+
+Python script that interacts with the Binance API to perform trading actions based on certain thresholds set by the user. It begins by establishing a connection with the API and printing out the user's initial USDT balance. It then prompts the user to enter trading variables, such as the trading symbol, the amount of USDT to spend, the buy-low threshold, the sell-high threshold, and the stop-loss threshold. After that, it defines several functions for buying, selling, and getting the available balance of a cryptocurrency. The main body of the script continuously fetches the price of the cryptocurrency, checks if it's time to buy or sell based on the thresholds, and takes action accordingly. It also prints out various information, such as the current price, the percent change, and the profits or losses. The script terminates gracefully upon the user pressing CTRL+C.
