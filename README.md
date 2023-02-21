@@ -1,17 +1,9 @@
 # cryptoBandit aka binanceTradingBot
 ## Simple Python buy-low sell-high trading bot
 
-Introducing cryptoBandit, the notorious cyber-criminal and finance genius! This code is their masterpiece, a ruthless trading bot that can make you rich or leave you destitute, depending on how you set it up.
+Introducing cryptoBandit, the notorious cyber-criminal and finance genius! This code is their masterpiece, a ruthless trading bot that can make you rich or leave you destitute, depending on how you set it up. Armed with Python and the Binance API, cryptoBandit can scan the markets for any symbol you choose and buy or sell at a moment's notice, all while taunting you with colorful terminal output.
 
-Armed with Python and the Binance API, cryptoBandit can scan the markets for any symbol you choose and buy or sell at a moment's notice, all while taunting you with colorful terminal output.
-
-Enter the parameters carefully, my friend, or you may be sorry. Tell cryptoBandit how much of your precious USDT to spend, how low it should buy before you panic, how high it should sell before you dance a jig, and how much to cut your losses if things go wrong.
-
-Once the bot is running, it will watch the symbol like a hawk, looking for the perfect moment to pounce. If it sees a drop that meets your threshold, it will buy in and start the clock. If it sees a rise that meets your threshold, it will sell out and collect its bounty.
-
-But beware, dear trader, for cryptoBandit is a wild card. It may decide to bail out early, taking your hard-earned profits and leaving you feeling cheated. Or it may hold on too long, taking your savings down with it as it crashes and burns.
-
-But fear not, for you have a secret weapon. If things get too hairy, simply press CTRL+C to kill the bot and escape with what's left of your sanity. It's not much, but it's better than nothing.
+Enter the parameters carefully, my friend, or you may be sorry. Tell cryptoBandit how much of your precious USDT to spend, how low it should buy before you panic, how high it should sell before you dance a jig, and how much to cut your losses if things go wrong. Once the bot is running, it will watch the symbol like a hawk, looking for the perfect moment to pounce. If it sees a drop that meets your threshold, it will buy in and start the clock. If it sees a rise that meets your threshold, it will sell out and collect its bounty. But beware, dear trader, for cryptoBandit is a wild card. It may decide to bail out early, taking your hard-earned profits and leaving you feeling cheated. Or it may hold on too long, taking your savings down with it as it crashes and burns. But fear not, for you have a secret weapon. If things get too hairy, simply press CTRL+C to kill the bot and escape with what's left of your sanity. It's not much, but it's better than nothing.
 
 So what are you waiting for, my friend? Are you ready to enter the world of high-stakes crypto trading with the infamous cryptoBandit?
 
