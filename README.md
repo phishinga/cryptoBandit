@@ -1,7 +1,7 @@
 # cryptoBandit aka Binance Trading Bot
 ## Simple Python buy-low and sell-high trading bot
 
-**TL;DR: This Python script is a cryptocurrency trading bot that connects to the Binance and Slack APIs. It calculates technical indicators and executes trades based on user-defined parameters. The script is easy to use, includes helper functions, and is the ultimate tool for cryptocurrency trading.**
+**TL;DR: This Python script is a cryptocurrency trading bot that connects to the Binance and Slack APIs. It calculates technical indicators and executes trades based on user-defined parameters. The script is easy to use, includes helper functions, and is a nice tool for cryptocurrency trading for anyone who is interested to learn about crypto trading.**
 
 ### Disclaimer
 This Python script is a collaborative effort and was written with the assistance of ChatGPT, a language model trained by OpenAI. Please note that the author of this script is not a trained Python developer, so the code should be taken with a grain of salt. The author welcomes suggestions for how to improve the code or make it more efficient.
