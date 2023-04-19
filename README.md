@@ -25,7 +25,7 @@ Now comes the fun part - technical indicators! The cryptoBandit already calculat
 
 ### Screens
 
-Solarized dark             |  Solarized Ocean
+Assimilated Variables      |  Running the Bot
 :-------------------------:|:-------------------------:
 ![image](https://user-images.githubusercontent.com/121772502/233147399-25491da4-b5ef-4c0b-8371-1d624f802e90.png)  |  ![image](https://user-images.githubusercontent.com/121772502/233147629-7c52b3d6-4a89-439e-809f-23ce4b410edf.png)
 
