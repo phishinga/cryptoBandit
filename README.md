@@ -1,10 +1,33 @@
 # cryptoBandit aka Binance Trading Bot
-## Simple Python buy-low sell-high trading bot
+### Simple Python buy-low and sell-high trading bot (it also checks if RSI is bellow 30).
 
-Python script that interacts with the Binance API to perform trading actions based on certain thresholds set by the user. It begins by establishing a connection with the API and printing out the user's initial USDT balance. It then prompts the user to enter trading variables, such as the trading symbol, the amount of USDT to spend, the buy-low threshold, the sell-high threshold, and the stop-loss threshold. After that, it defines several functions for buying, selling, and getting the available balance of a cryptocurrency. 
+**TL;DR: This Python script is a cryptocurrency trading bot that connects to the Binance and Slack APIs. It calculates technical indicators and executes trades based on user-defined parameters. The script is easy to use, includes helper functions, and is the ultimate tool for cryptocurrency trading.**
 
-The script checks the current percent change in price compared to the buy price, and if it's less than or equal to the stop-loss threshold, it triggers a sell with the sell price set to the buy price minus the stop-loss threshold. This ensures that the script sells the position at a price that's lower than the buy price but still reasonably close to it to minimize losses.
+### Disclaimer
+This Python script is a collaborative effort and was written with the assistance of ChatGPT, a language model trained by OpenAI. Please note that the author of this script is not a trained Python developer, so the code should be taken with a grain of salt. The author welcomes suggestions for how to improve the code or make it more efficient.
 
-After the sell function is triggered, the script sets the position_is_open variable to False, indicating that there is no longer a position open, and the buy_price and sell_price variables are reset to None, ready for the next buy and sell orders.
+### Functionality
+- This Python script is a cryptocurrency trading bot that connects to the Binance and Slack APIs.
+- The script defines variables for the bot version and output file names, and Slack API token and channel name.
+- The bot sends a message to the Slack channel when initiated.
+- The user is prompted to enter values for various trading parameters such as the symbol to trade and buy and sell thresholds.
+- The script also calculates several technical indicators using the Binance API and prints their values to the console, however as of now the bot is using only RSI value to execute buy function. **You are welcome to play with different strategies and experiment with different strategies.**
+- The bot executes a buy order if certain conditions are met, and a sell order if the percentage change in price exceeds the sell threshold or drops below the stop loss threshold (or if ten candlesticks have elapsed - note that this function is commented out) .
+- The script includes several helper functions such as calculate_profit_or_loss() or reset availability if price rises up.
+- It also prints out various information, such as the current price, the percent change, and the profits or losses. 
+- The script terminates gracefully upon the user pressing CTRL+C.
 
-It also prints out various information, such as the current price, the percent change, and the profits or losses. The script terminates gracefully upon the user pressing CTRL+C.
+##FAQ
+
+### So how do I run the script?
+Uppon executing the cryptoBandit.py you need to provide some trading parameters. The script will ask you to enter the symbol you want to trade (for example BTCUSDT). Cryptobot will print these values to the console and send them also to the Slack channel as a message, so everyone can see how awesome you are.
+
+### When the purchase is made?
+If the conditions are right (i.e., RSI below 30 and price change below the buy threshold), the bot will execute a buy order. But if the percentage change in price exceeds the sell threshold or drops below the stop loss threshold, it's time to sell! After the sell function is triggered, the script sets the position_is_open variable to False, indicating that there is no longer a position open, and the buy_price and sell_price variables are reset to None, ready for the next buy and sell orders.
+
+### What if I want to try different strategies?
+Now comes the fun part - technical indicators! The cryptoBandit already calculates several indicators and print their values to the console. We're talking RSI, MACD, EMA, Vortex, Bollinger Bands, and Fibonacci retracements. Feel free to try them out, and share with us the results to help others in their path. 
+
+
+
+
