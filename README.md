@@ -11,7 +11,7 @@ This Python script is a collaborative effort and was written with the assistance
 - The script defines variables for the bot version and output file names, and Slack API token and channel name.
 - The bot sends a message to the Slack channel when initiated.
 - The user is prompted to enter values for various trading parameters such as the symbol to trade and buy and sell thresholds.
-- The script also calculates several technical indicators using the Binance API and prints their values to the console, however as of now the bot is using only RSI value to execute buy function. **You are welcome to play with different strategies and experiment with different strategies.**
+- The script also calculates several technical indicators using the Binance API and prints their values to the console, however as of now the bot is using only RSI value to execute buy function. **You are welcome to play with different strategies and experiment with different strategies. Make sure to share the results with us! Bad or good, help the others!**
 - The bot executes a buy order if certain conditions are met, and a sell order if the percentage change in price exceeds the sell threshold or drops below the stop loss threshold (or if ten candlesticks have elapsed - note that this function is commented out) .
 - The script includes several helper functions such as calculate_profit_or_loss() or reset availability if price rises up.
 - It also prints out various information, such as the current price, the percent change, and the profits or losses. 
