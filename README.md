@@ -27,7 +27,7 @@ Now comes the fun part - technical indicators! The cryptoBandit already calculat
 
 Assimilated Variables      |  Running the Bot
 :-------------------------:|:-------------------------:
-![image](https://user-images.githubusercontent.com/121772502/233147399-25491da4-b5ef-4c0b-8371-1d624f802e90.png)  |  ![image](https://user-images.githubusercontent.com/121772502/233147629-7c52b3d6-4a89-439e-809f-23ce4b410edf.png)
+![image](https://user-images.githubusercontent.com/121772502/233147399-25491da4-b5ef-4c0b-8371-1d624f802e90.png)  |  ![image](https://user-images.githubusercontent.com/121772502/233162723-911e8397-91c3-4368-bb61-2842a1a477b2.png)
 
 
 
