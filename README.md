@@ -17,17 +17,15 @@ This Python script is a collaborative effort and was written with the assistance
 - It also prints out various information, such as the current price, the percent change, and the profits or losses. 
 - The script terminates gracefully upon the user pressing CTRL+C.
 
-## FAQ
-
-### So how do I run the script?
-Uppon executing the cryptoBandit.py you need to provide some trading parameters. The script will ask you to enter the symbol you want to trade (for example BTCUSDT). Cryptobot will print these values to the console and send them also to the Slack channel as a message, so everyone can see how awesome you are.
-
 ### When the purchase is made?
 If the conditions are right (i.e., RSI below 30 and price change below the buy threshold), the bot will execute a buy order. But if the percentage change in price exceeds the sell threshold or drops below the stop loss threshold, it's time to sell! After the sell function is triggered, the script sets the position_is_open variable to False, indicating that there is no longer a position open, and the buy_price and sell_price variables are reset to None, ready for the next buy and sell orders.
 
 ### What if I want to try different strategies?
 Now comes the fun part - technical indicators! The cryptoBandit already calculates several indicators and print their values to the console. We're talking RSI, MACD, EMA, Vortex, Bollinger Bands, and Fibonacci retracements. **Feel free to try them out, and share with us the results to help others in their learning path**. 
 
+### Screens
+
+![image](https://user-images.githubusercontent.com/121772502/233147399-25491da4-b5ef-4c0b-8371-1d624f802e90.png)
 
 
 
