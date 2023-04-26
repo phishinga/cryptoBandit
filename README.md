@@ -7,7 +7,6 @@
 This Python script is a collaborative effort and was written with the assistance of ChatGPT, a language model trained by OpenAI. Please note that the author of this script is not a trained Python developer, so the code should be taken with a grain of salt. The author welcomes suggestions for how to improve the code or make it more efficient.
 
 ### Functionality
-- This Python script is a cryptocurrency trading bot that connects to the Binance and Slack APIs.
 - The script defines variables for the bot version and output file names, and Slack API token and channel name.
 - The bot sends a message to the Slack channel when initiated.
 - The user is prompted to enter values for various trading parameters such as the symbol to trade and buy and sell thresholds.
